@@ -768,6 +768,21 @@ a:hover {
 //--//-->   PORTFOLIO
 ======================================*/
 
+/* Add a max-width to the paragraph */
+.w-description {
+  max-width: 600px;
+  /* Limit the width of the description */
+  margin: 0 auto;
+  /* Center the text */
+  padding: 10px;
+  /* Optional: Adds padding to make it look nicer */
+  font-size: 1rem;
+  /* Adjust font size as needed */
+  line-height: 1.6;
+  /* Adds spacing between lines for readability */
+  color: #333;
+  /* Change text color to improve readability */
+}
 .work-box {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
